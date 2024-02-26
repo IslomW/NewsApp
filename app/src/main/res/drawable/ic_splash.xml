@@ -1,0 +1,67 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="288dp"
+            android:height="288dp"
+            android:viewportWidth="288"
+            android:viewportHeight="288">
+            <group
+                android:name="group"
+                android:pivotX="144"
+                android:pivotY="144"
+                android:scaleX="0.85"
+                android:scaleY="0.85">
+                <path
+                    android:name="path"
+                    android:pathData="M 91.815 150.308 L 91.815 227 L 109.35 216.357 L 126.885 227 L 144.419 216.357 L 161.954 227 L 179.489 216.357 L 197.024 227 L 214.559 216.357 L 232.094 227 L 232.094 77.907 C 232.094 68.017 224.076 60 214.186 60 L 73.907 60"
+                    android:fillColor="#e6e6e6"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="path_1"
+                    android:pathData="M 56 150.309 L 91.815 150.309 L 91.815 76.312 C 91.815 67.304 84.512 60.001 75.504 60.001 L 72.312 60.001 C 63.303 60.001 56 67.303 56 76.312 L 56 150.309 Z"
+                    android:fillColor="#cccccc"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="path_2"
+                    android:pathData="M 153.004 91.144 L 114.214 91.144 L 114.214 143.504 L 153.004 143.504 L 153.004 91.144 Z"
+                    android:fillColor="#47a7dd"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="path_3"
+                    android:pathData="M 213.46 156.59 L 168.607 156.59 L 168.607 182.768 L 213.46 182.768 L 213.46 156.59 Z"
+                    android:fillColor="#ffca6c"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="path_4"
+                    android:pathData="M 213.367 93.286 L 168.518 93.286 L 168.518 99.805 L 213.367 99.805 L 213.367 93.286 Z M 213.367 145.64 L 168.518 145.64 L 168.518 152.16 L 213.367 152.16 L 213.367 145.64 Z M 213.367 132.554 L 192.322 132.554 L 192.322 139.073 L 213.367 139.073 L 213.367 132.554 Z M 184.743 132.554 L 168.518 132.554 L 168.518 139.073 L 184.743 139.073 L 184.743 132.554 Z M 213.367 119.463 L 168.518 119.463 L 168.518 125.983 L 213.367 125.983 L 213.367 119.463 Z M 152.915 187.486 L 114.125 187.486 L 114.125 194.006 L 152.915 194.006 L 152.915 187.486 Z M 152.911 174.4 L 134.587 174.4 L 134.587 180.919 L 152.911 180.919 L 152.911 174.4 Z M 127.008 174.4 L 114.125 174.4 L 114.125 180.919 L 127.008 180.919 L 127.008 174.4 Z M 152.915 161.309 L 114.125 161.309 L 114.125 167.828 L 152.915 167.828 L 152.915 161.309 Z M 213.37 106.372 L 206.161 106.372 L 206.161 112.892 L 213.37 112.892 L 213.37 106.372 Z M 198.577 106.372 L 168.518 106.372 L 168.518 112.892 L 198.577 112.892 L 198.577 106.372 Z"
+                    android:fillColor="#808080"
+                    android:strokeWidth="1"/>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="group">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="scaleX"
+                    android:startOffset="200"
+                    android:duration="500"
+                    android:valueFrom="0"
+                    android:valueTo="0.85"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/overshoot_interpolator"/>
+                <objectAnimator
+                    android:propertyName="scaleY"
+                    android:startOffset="200"
+                    android:duration="500"
+                    android:valueFrom="0"
+                    android:valueTo="0.85"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/overshoot_interpolator"/>
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>
